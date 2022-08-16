@@ -1,0 +1,312 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Wed Nov 11 21:40:21 2020
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                    ISRHV       code   0x000008    program   0x000004
+                    ISRLV       code   0x000018    program   0x000004
+                MAIN_PROG       code   0x00001c    program   0x000796
+                 LOW_ISRL       code   0x0007b2    program   0x000118
+                     ISRH       code   0x0008ca    program   0x000010
+.config_300000_BUILD/DEFAULT/DEBUG/_EXT/3378251    romdata   0x300000    program   0x000001
+.config_300001_BUILD/DEFAULT/DEBUG/_EXT/3378251    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/DEBUG/_EXT/3378251    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/DEBUG/_EXT/3378251    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/DEBUG/_EXT/3378251    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/DEBUG/_EXT/3378251    romdata   0x300006    program   0x000001
+.config_300008_BUILD/DEFAULT/DEBUG/_EXT/3378251    romdata   0x300008    program   0x000001
+.config_300009_BUILD/DEFAULT/DEBUG/_EXT/3378251    romdata   0x300009    program   0x000001
+.config_30000A_BUILD/DEFAULT/DEBUG/_EXT/3378251    romdata   0x30000a    program   0x000001
+.config_30000B_BUILD/DEFAULT/DEBUG/_EXT/3378251    romdata   0x30000b    program   0x000001
+.config_30000C_BUILD/DEFAULT/DEBUG/_EXT/3378251    romdata   0x30000c    program   0x000001
+.config_30000D_BUILD/DEFAULT/DEBUG/_EXT/3378251    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x00000b      
+                            0x000018    0x0008d9      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            2264 out of 33048 program addresses used, program memory utilization is 6%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   ALFACE   0x0003da    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                   BUFFER   0x0003fe    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                CEBOLINHA   0x0003e6    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+             CONTINUA_LDC   0x000632    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+         CURSOR_ALTERNADO   0x000166    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+             CURSOR_BLINK   0x00015e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               CURSOR_DIR   0x00016e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               CURSOR_ESQ   0x000176    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+              CURSOR_HOME   0x00017e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               CURSOR_OFF   0x00014e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                CURSOR_ON   0x000156    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     DEC_   0x00079c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               DELAY_50MS   0x000396    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 DELAY_MS   0x0003a4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  DIVISAO   0x000592    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  DIVI_01   0x00059a    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               DIVI_MENOR   0x0005aa    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               ENTRADAS_S   0x000770    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+              ERRO_BROKER   0x000892    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                ERRO_REDE   0x000862    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                   ESPACO   0x000314    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           ESPERA_LEITURA   0x00058a    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     EXIT   0x0008d8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                   FIM_01   0x0004b8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 HIGH_ISR   0x0008ca    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     INC_   0x000798    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           INICIALIZA_LCD   0x0000a6    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L0   0x0002c4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L1   0x0002cc    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L2   0x0002d4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L3   0x0002dc    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L4   0x0002e4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L5   0x0002ec    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L6   0x0002f4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L7   0x0002fc    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L8   0x000304    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L9   0x00030c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LA   0x000204    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LB   0x00020c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LC   0x000214    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 LCDCLEAR   0x000186    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                LCDLOCATE   0x00019a    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+              LCDSENDBYTE   0x0001b0    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           LCDSENDCOMMAND   0x0001a8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+              LCDSENDDATA   0x0001a0    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               LCD_BOTOES   0x0007d4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           LCD_CURSOR_DIR   0x00011e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           LCD_CURSOR_ESQ   0x000126    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  LCD_OFF   0x000116    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                   LCD_ON   0x00010e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                LCD_TEST1   0x00033e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                LCD_TEST2   0x000354    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                LCD_TEST3   0x00036a    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                LCD_TEST4   0x000380    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+            LCD_TEXTO_DIR   0x00012e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+            LCD_TEXTO_ESQ   0x000136    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LD   0x00021c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LE   0x000224    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+         LEITURA_SENSORES   0x000510    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LF   0x00022c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LG   0x000234    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LH   0x00023c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LI   0x000244    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 LIBERA_S   0x0007f4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    LIMPA   0x0005da    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LJ   0x00024c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LK   0x000254    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LL   0x00025c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LM   0x000264    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LN   0x00026c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LO   0x000274    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     LOOP   0x000066    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    LOOP3   0x0003b8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    LOOP4   0x0003b2    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 LOOP_UNI   0x0005ba    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  LOW_ISR   0x0007b2    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LP   0x00027c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LQ   0x000284    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LR   0x00028c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LS   0x000294    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LT   0x00029c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LU   0x0002a4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LV   0x0002ac    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LX   0x0002b4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LZ   0x0002bc    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                   MAIOR_   0x0004fe    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     MAIS   0x000324    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                   MENOR_   0x000502    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    MENOS   0x00032c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 PLANTA_S   0x0006b2    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           PLANTA_S_ENTER   0x000742    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    PONTO   0x00031c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     REQ_   0x000498    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    REQ_L   0x000468    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    REQ_T   0x000438    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    REQ_U   0x000408    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                REQ_WEB_L   0x000470    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                REQ_WEB_T   0x000440    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                REQ_WEB_U   0x000410    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     RLCD   0x000504    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                R_SELECAO   0x0007a8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  RxError   0x0007ee    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       S1   0x00051c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       S2   0x000530    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       S3   0x000544    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  SAIDA_S   0x00074c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 SALSINHA   0x0003f2    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 SELECT_E   0x0007a0    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 SELECT_S   0x0007a4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  SOMA_01   0x000582    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  SOMA_02   0x00057a    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 SOMA_30H   0x0005e0    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    START   0x00001c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+              TELA_INICIO   0x000646    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 TELA_LCD   0x0005e8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     TEMP   0x00039e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                TESTA_LCD   0x000334    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+             TESTE_DEZENA   0x0005c8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                TEXTO_DIR   0x00013e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                TEXTO_ESQ   0x000146    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+          TRANFORMA_ASCII   0x0005ae    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+            TRANS_UMIDADE   0x000570    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               TRATA_DADO   0x0007f8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                TRATA_MAX   0x0004b8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                TRATA_MIN   0x0004c6    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 TRATA_RX   0x0007da    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+            VERIFICA_MAIS   0x0004d6    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           VERIFICA_MENOS   0x0004ea    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+          _MAIN_PROG_0082   0x00009e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                            0x00005c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x00001c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                            0x00005c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     LOOP   0x000066    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+          _MAIN_PROG_0082   0x00009e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           INICIALIZA_LCD   0x0000a6    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                   LCD_ON   0x00010e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  LCD_OFF   0x000116    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           LCD_CURSOR_DIR   0x00011e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           LCD_CURSOR_ESQ   0x000126    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+            LCD_TEXTO_DIR   0x00012e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+            LCD_TEXTO_ESQ   0x000136    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                TEXTO_DIR   0x00013e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                TEXTO_ESQ   0x000146    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               CURSOR_OFF   0x00014e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                CURSOR_ON   0x000156    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+             CURSOR_BLINK   0x00015e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+         CURSOR_ALTERNADO   0x000166    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               CURSOR_DIR   0x00016e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               CURSOR_ESQ   0x000176    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+              CURSOR_HOME   0x00017e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 LCDCLEAR   0x000186    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                LCDLOCATE   0x00019a    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+              LCDSENDDATA   0x0001a0    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           LCDSENDCOMMAND   0x0001a8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+              LCDSENDBYTE   0x0001b0    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LA   0x000204    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LB   0x00020c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LC   0x000214    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LD   0x00021c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LE   0x000224    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LF   0x00022c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LG   0x000234    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LH   0x00023c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LI   0x000244    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LJ   0x00024c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LK   0x000254    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LL   0x00025c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LM   0x000264    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LN   0x00026c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LO   0x000274    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LP   0x00027c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LQ   0x000284    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LR   0x00028c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LS   0x000294    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LT   0x00029c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LU   0x0002a4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LV   0x0002ac    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LX   0x0002b4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       LZ   0x0002bc    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L0   0x0002c4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L1   0x0002cc    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L2   0x0002d4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L3   0x0002dc    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L4   0x0002e4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L5   0x0002ec    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L6   0x0002f4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L7   0x0002fc    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L8   0x000304    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       L9   0x00030c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                   ESPACO   0x000314    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    PONTO   0x00031c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     MAIS   0x000324    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    MENOS   0x00032c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                TESTA_LCD   0x000334    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                LCD_TEST1   0x00033e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                LCD_TEST2   0x000354    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                LCD_TEST3   0x00036a    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                LCD_TEST4   0x000380    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               DELAY_50MS   0x000396    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     TEMP   0x00039e    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 DELAY_MS   0x0003a4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    LOOP4   0x0003b2    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    LOOP3   0x0003b8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                   ALFACE   0x0003da    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                CEBOLINHA   0x0003e6    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 SALSINHA   0x0003f2    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                   BUFFER   0x0003fe    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    REQ_U   0x000408    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                REQ_WEB_U   0x000410    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    REQ_T   0x000438    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                REQ_WEB_T   0x000440    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    REQ_L   0x000468    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                REQ_WEB_L   0x000470    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     REQ_   0x000498    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                   FIM_01   0x0004b8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                TRATA_MAX   0x0004b8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                TRATA_MIN   0x0004c6    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+            VERIFICA_MAIS   0x0004d6    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           VERIFICA_MENOS   0x0004ea    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                   MAIOR_   0x0004fe    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                   MENOR_   0x000502    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     RLCD   0x000504    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+         LEITURA_SENSORES   0x000510    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       S1   0x00051c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       S2   0x000530    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                       S3   0x000544    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+            TRANS_UMIDADE   0x000570    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  SOMA_02   0x00057a    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  SOMA_01   0x000582    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           ESPERA_LEITURA   0x00058a    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  DIVISAO   0x000592    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  DIVI_01   0x00059a    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               DIVI_MENOR   0x0005aa    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+          TRANFORMA_ASCII   0x0005ae    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 LOOP_UNI   0x0005ba    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+             TESTE_DEZENA   0x0005c8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                    LIMPA   0x0005da    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 SOMA_30H   0x0005e0    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 TELA_LCD   0x0005e8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+             CONTINUA_LDC   0x000632    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+              TELA_INICIO   0x000646    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 PLANTA_S   0x0006b2    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+           PLANTA_S_ENTER   0x000742    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  SAIDA_S   0x00074c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               ENTRADAS_S   0x000770    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     INC_   0x000798    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     DEC_   0x00079c    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 SELECT_E   0x0007a0    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 SELECT_S   0x0007a4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                R_SELECAO   0x0007a8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  LOW_ISR   0x0007b2    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               LCD_BOTOES   0x0007d4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 TRATA_RX   0x0007da    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                  RxError   0x0007ee    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 LIBERA_S   0x0007f4    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+               TRATA_DADO   0x0007f8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                ERRO_REDE   0x000862    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+              ERRO_BROKER   0x000892    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                 HIGH_ISR   0x0008ca    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+                     EXIT   0x0008d8    program     static C:\Users\Guilherme_Vilela\MPLABXProjects\TCC.X\VAI DAR BOM.asm
+
+
